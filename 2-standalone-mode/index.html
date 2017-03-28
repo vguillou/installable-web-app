@@ -58,7 +58,7 @@
         document.querySelector('#webapp_ios').innerHTML = 'ON';
       }
 
-      // Detect a Webapp defined via a standard manifest (using the parameter added in the `starturl`)
+      // Detect a Webapp defined via a standard manifest
       if (window.matchMedia('(display-mode: standalone)').matches) {
         document.querySelector('#webapp_manifest').innerHTML = 'ON';
       }
