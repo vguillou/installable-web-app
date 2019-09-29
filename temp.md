@@ -99,8 +99,8 @@ You only need to connect to `http://my_ip:8080` with a mobile device connected t
 ## 1- Add a Home Screen shortcut
 
 In addition to a `<title>` tag, you need to add a number of tags in the `<head>` of each Html page that should support the 'Add to Home screen' feature.
-As for producing a favicon, producing a homogenous shortcut [across browsers and OS is actually very complicated](http://realfavicongenerator.net/favicon_compatibility). It is therefore recommended to use a generator to produce every icon and tags that you need to support all modern platforms.
-[This generator](http://realfavicongenerator.net/) can be confidently used and offers a comprehensive guide, complete with previews, numerous options and an expensive [http://realfavicongenerator.net/faq](FAQ) if you wish to understand and/or play around with the generated tags/icons.
+Producing a homogenous shortcut [across browsers and OS is actually very complicated](http://realfavicongenerator.net/favicon_compatibility). It is therefore recommended to use a generator to produce every icons and tags that you need to support all modern platforms.
+[This generator](http://realfavicongenerator.net/) can be confidently used and offers a comprehensive guide, complete with previews, numerous options and an expensive [FAQ](http://realfavicongenerator.net/faq) if you wish to understand and/or play around with the generated tags/icons.
 
 Note that unfortunately, IOS does not provide developers with an API to add custom icons to the user's Home screen. Therefore, third party browsers cannot support the 'Add to Home screen' feature.
 
@@ -109,7 +109,7 @@ Note that unfortunately, IOS does not provide developers with an API to add cust
 
 blabla
 
-If you implement this behaviour, chances are your web application is [responsive](todo), in which case, it is good practice to disable zooming in/out the page, as your UI should already be displayed in an optimal fashion. To do so, you can add the following `<meta>` tag :
+If you implement this behaviour, chances are your web application is responsive, in which case, it is good practice to disable zooming in/out the page, as your UI should already be displayed in an optimal fashion. To do so, you can add the following `<meta>` tag :
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 
@@ -139,4 +139,4 @@ For additional information, you can refer to Apple's [official developer guide](
 ## 3- Automatic install banner
 
 
-## 4- Integrating the shortcut
+TODO
